@@ -1,5 +1,6 @@
 import plotly.express as px
 
+print("we are here")
 # create a map of area, where houses from data set located
 fig = px.scatter_mapbox(data, #our data set
                         lat="lat", lon="long", #location
@@ -14,3 +15,4 @@ fig = px.scatter_mapbox(data, #our data set
 #style of map
 fig.update_layout(mapbox_style="open-street-map")
 fig.show(config={'scrollZoom': False})
+
