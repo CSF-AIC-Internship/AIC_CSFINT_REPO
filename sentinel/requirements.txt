@@ -1,0 +1,5 @@
+dask
+planetary_computer
+xarray
+pystac_client
+odc.stac
